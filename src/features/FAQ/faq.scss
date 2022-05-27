@@ -1,0 +1,27 @@
+.container-faq {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__text {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    font-size: 3rem;
+  }
+
+  &accordion {
+    position: fixed;
+    top: 50%;
+  }
+}
+
+// ! Circle logo a voir
+.circle-logo {
+    width: 10rem;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /dashboard
+Allow: /
+Allow: /circle
+Allow: /profil
+Allow: /faq
+Allow: /contact

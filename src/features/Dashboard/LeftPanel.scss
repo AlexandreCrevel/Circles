@@ -1,0 +1,16 @@
+.leftPanel {
+  display: flex;
+  &__profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  &__logo {
+    // width: 60px;
+    height: 100px;
+  }
+  &__logo-container {
+    display: flex;
+    align-items: center;
+  }
+}

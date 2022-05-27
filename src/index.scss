@@ -1,8 +1,37 @@
+//! Delete for MUI style with tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Import variable for darkmode
+@import './styles/variables.css';
+@font-face {
+  font-family: 'easterFont';
+  font-display: swap;
+  src: url('../public/fonts/regular-font.woff2') format('woff2'),
+    url('../public/fonts/black-font.woff2') format('woff2'),
+    url('../public/fonts/bold-font.woff2') format('woff2'),
+    url('../public/fonts/medium-font.woff2') format('woff2'),
+    url('../public/fonts/regularitalic-font.woff2') format('woff2');
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  overflow: hidden;
+}
+
+.texts {
+  color: var(--maincolor);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'easterFont', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +39,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.MuiOutlinedInput-input {
+  color: var(--maincolor);
+}
+.MuiInput-input {
+  color: var(--maincolor);
+}
+
+.MuiTypography-root {
+  color: var(--maincolor);
+}
+.customTooltip {
+  color: var(--textinput);
+  background-color: var(--background);
+}
+.introjs-helperLayer {
+  // border: 2px solid var(--backgroundButton);
 }

@@ -1,0 +1,67 @@
+.container-page-contact {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// .circle-logo {
+//     width: 10rem;
+//     margin: auto;
+//     display: flex;
+//     justify-content: flex-start;
+//     padding: 0;
+// }
+
+.title {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.container-contacts {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 3em;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+.contact {
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+
+  &--portrait {
+    border-radius: 50%;
+  }
+
+  &--name {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  &--desc {
+    font-size: 1.1em;
+    font-style: italic;
+  }
+
+  &--button {
+    background-color: var(--backgroundButton);
+    color: var(--maincolor);
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

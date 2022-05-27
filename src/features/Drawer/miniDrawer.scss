@@ -1,0 +1,31 @@
+.Drawer__ui {
+  &--custom {
+    & > * {
+      background-color: transparent;
+    }
+    & > :first-child {
+      background-color: var(--background);
+      -webkit-backdrop-filter: (8px);
+      transform: translateX(-65px);
+      @media only screen and (min-width: 1000px) {
+        transform: translateX(0px);
+      }
+    }
+  }
+  &--open {
+    transition: all 300ms ease-in-out;
+    & > :first-child {
+      transform: translateX(0px);
+    }
+  }
+}
+.nav-active {
+  color: var(--backgroundButton);
+  svg {
+    color: var(--backgroundButton);
+  }
+}
+
+.MuiListItemIcon-root > * {
+  min-width: 1.5rem;
+}

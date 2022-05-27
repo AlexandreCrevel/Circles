@@ -1,0 +1,89 @@
+.circle-logo-404{
+  width: 10rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.container-svg{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+// svg {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   margin-top: -250px;
+//   margin-left: -400px;
+// }
+.message-box {
+  position: absolute;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.message-box h1 {
+  font-size: 60px;
+  line-height: 46px;
+  margin-bottom: 40px;
+}
+.buttons-con .action-link-wrap {
+  margin-top: 40px;
+}
+.buttons-con .action-link-wrap a {
+  background: #EA8122;
+  box-shadow: 10px 26px 24px -8px rgba(0,0,0,0.19);
+  padding: 8px 25px;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-decoration: none;
+
+
+}
+.buttons-con .action-link-wrap a:hover {
+  background: #5A5C6C;
+  color: #fff;
+}
+
+#Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5, #Polygon-6 {
+  animation: float 1s infinite ease-in-out alternate;
+}
+#Polygon-2 {
+  animation-delay: .2s; 
+}
+#Polygon-3 {
+  animation-delay: .4s; 
+}
+#Polygon-4 {
+  animation-delay: .6s; 
+}
+#Polygon-5 {
+  animation-delay: .8s; 
+}
+
+#Polygon-6{
+  animation-delay: 0.8s;
+}
+
+@keyframes float {
+	100% {
+    transform: translateY(20px);
+  }
+}
+@media (max-width: 450px) {
+
+  .circle-logo-404{
+    right: 50%;
+  }
+.container-svg{
+  justify-content: center;
+}
+}

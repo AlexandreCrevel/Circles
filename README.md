@@ -1,46 +1,67 @@
-# Getting Started with Create React App and Redux
+# Circles
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## Synopsis :
 
-## Available Scripts
+Circles is a social network about circles. Circles of family, friends or roommates, for example. We had many ideas, but we concentrated on the most important for us ; calendar and chat. We got plenty of ideas for the future. Feel free to try it out (it is currently in frech).
 
-In the project directory, you can run:
+Made with React, there is the final project doing during my courses in the O'clock school. The project was done with :
 
-### `npm start`
+## 3 front-end developers :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Alexandre Crevel](https://github.com/AlexandreCrevel)
+- [Elodie Bustin](https://github.com/ElodieBustin)
+- Logan Willaumez (Me)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 2 back-end developers :
 
-### `npm test`
+- [Robin Poppel](https://github.com/robinho54)
+- [Mathieu Tourte](https://github.com/AtomicMathO)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We've got 1 month to do this project. 1 week to build the infrastructure, MCD and MLD and 2,5 weeks for coding it.
 
-### `npm run build`
+Thanks a lot to my team, it was absolutely amazing to work with them. Feel free to check their profile, they merit it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- MUI
+- TailwindCss
+- BigCalendar
+- Intro.js
+- Redux(toolkit and RTK queries)
+- Socket.io
+- Node.js
+- JWT token
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Install
 
-### `npm run eject`
+Prerequisites: Make sure you've installed Node.js ≥ 12
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Install dependencies :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. To launch locally :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+yarn dev
+```
 
-## Learn More
+## Know Issues
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We have many refactoring to do in the code. As I said, we want to continue it, but we don't have a lot of time for optimize the code and the functionalities, it will be for the future.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Missing features
+
+- A doodle
+- A todo-list
+- A Notepad
+- Pictures upload
+- Dynamic Circles
+- ...
+
+## Demo
+
+http://ocircles.surge.sh/

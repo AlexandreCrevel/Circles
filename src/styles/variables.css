@@ -1,0 +1,22 @@
+:root {
+  --background: #ffffff;
+  --subbackground: #ffffff;
+  --maincolor: #294154;
+  --mainSecond: #ffffff;
+  --maincolor-reverse: #294154;
+  --maingradient: #41617a, #41617aff;
+  --buttonDark: #f1aa2a;
+  --backgroundButton: #ea8122;
+  --textinput: #294154;
+}
+[data-theme='dark'] {
+  --background: #1a2028;
+  --subbackground: #212b36;
+  --maincolor: #ffffff;
+  --mainSecond: #383b46;
+  --maincolor-reverse: #294154;
+  --maingradient: #d7efff, #d7efff00;
+  --buttonDark: #294154;
+  --backgroundButton: #ea8122;
+  --textinput: #ffffff;
+}

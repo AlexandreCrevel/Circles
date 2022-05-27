@@ -5,13 +5,20 @@
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@mui/material": "^5.6.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.0.0-rc.1",
+    "@mui/material": "^5.8.0",
+    "@mui/x-date-pickers": "^5.0.0-alpha.3",
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^14.1.1",
-    "axios": "^0.27.2",
+    "animate.css": "^4.1.1",
     "date-fns": "^2.28.0",
+    "intro.js": "^5.1.0",
+    "intro.js-react": "^0.6.0",
+    "moment": "^2.29.3",
+    "moment-timezone": "^0.5.34",
     "react": "^18.1.0",
     "react-big-calendar": "^0.40.1",
     "react-dom": "^18.1.0",
@@ -19,6 +26,12 @@
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "rooks": "^5.11.0",
+    "socket.io-client": "^4.5.0",
+    "source-map-loader": "^3.0.1",
+    "stylis": "^4.1.1",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "use-local-storage": "^2.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -46,7 +59,9 @@
     ]
   },
   "devDependencies": {
-    "@faker-js/faker": "^6.3.1",
-    "sass": "^1.51.0"
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "sass": "^1.51.0",
+    "tailwindcss": "^3.0.24"
   }
 }
