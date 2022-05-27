@@ -10,7 +10,7 @@ Made with React, there is the final project doing during my courses in the O'clo
 
 - [Alexandre Crevel](https://github.com/AlexandreCrevel)
 - [Elodie Bustin](https://github.com/ElodieBustin)
-- Logan Willaumez (Me)
+- [Logan Willaumez](https://github.com/LoganWillaumez)
 
 ## 2 back-end developers :
 
