@@ -46,7 +46,7 @@ yarn
 3. To launch locally :
 
 ```bash
-yarn dev
+yarn start
 ```
 
 ## Know Issues
