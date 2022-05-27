@@ -62,6 +62,10 @@ We have many refactoring to do in the code. As I said, we want to continue it, b
 - Dynamic Circles
 - ...
 
+## Presentation (French)
+
+https://youtu.be/1VZvLR_oEVg?t=4882
+
 ## Demo
 
 http://ocircles.surge.sh/
